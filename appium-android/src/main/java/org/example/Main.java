@@ -14,7 +14,7 @@ public class Main {
         desiredCapabilities.setCapability("platformVersion", "10.0");
         desiredCapabilities.setCapability("deviceName", "any device name");
         desiredCapabilities.setCapability("automationName", "UiAutomator2");
-        desiredCapabilities.setCapability("app", "/Users/eyyupguzel/Desktop/ApiDemos-debug.apk");
+        desiredCapabilities.setCapability("app", "/Users/kubraatici/Desktop/ApiDemos-debug.apk");
 
     URL url = new URL("http://127.0.0.1:4723/wd/hub");
 
